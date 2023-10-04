@@ -62,11 +62,12 @@
 
 			<div class="powered-by">
 				<?php
-				printf(
-					/* translators: %s: WordPress. */
-					esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
-					'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>'
-				);
+				// printf(
+				// 	/* translators: %s: WordPress. */
+				// 	esc_html__( 'Proudly powered by %s.', 'twentytwentyone' ),
+				// 	'<a href="' . esc_url( __( 'https://wordpress.org/', 'twentytwentyone' ) ) . '">WordPress</a>'
+				// );
+				echo('Demo Made By Shu.')
 				?>
 			</div><!-- .powered-by -->
 
