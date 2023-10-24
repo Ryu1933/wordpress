@@ -14,12 +14,15 @@
 
 
 - 起動時の流れ　(ソースを辿っていけば分かるが一応メモ)
+    - [ワードプレス起動からテンプレートファイル実行までの処理の流れ](https://daeuwordpress.com/wp_load/#wp)
     - > STEP.1
     Apache 等のウェブサーバーがindex.phpを実行
 
     - > STEP.2
-    index.phpがwp-blog-header.phpを実行
-    （同時にWordPress起動用のPHPも実行していくがそちらは省略）
+    index.phpがwp-blog-header.phpを実行  
+    -> wp-load.php の実行
+    -> wp-config.php の実行
+    -> wp-settings.php の実行
 
     - > STEP.3
     wp-blog-header.phpがwp関数を実行
